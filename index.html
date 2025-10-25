@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro Educativo Nuevo Milenio - Educación básica y media para adultos en Santander de Quilichao, Cauca">
+    <meta name="keywords" content="educación, adultos, bachillerato, Santander de Quilichao, Cauca">
+    <title>Centro Educativo Nuevo Milenio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header" role="banner">
+        <div class="header-content">
+            <div class="header-brand">
+                <img src="assets/logo.png" alt="Logo Centro Educativo Nuevo Milenio" class="logo" width="56" height="56">
+                <div class="brand-text">
+                    <h1 class="brand-title">Centro Educativo Nuevo Milenio</h1>
+                </div>
+            </div>
+            <nav role="navigation" aria-label="Navegación principal">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" aria-current="page">Inicio</a></li>
+                    <li><a href="#mission" class="nav-link">Misión</a></li>
+                    <li><a href="#vision" class="nav-link">Visión</a></li>
+                    <li><a href="#objectives" class="nav-link">Objetivos</a></li>
+                </ul>
+                <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema" type="button">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="content-grid">
+            <aside class="sidebar" role="complementary">
+                <section id="contact" class="info-card" aria-labelledby="contact-heading">
+                    <h2 id="contact-heading">Contáctanos</h2>
+                    <div class="info-content">
+                        <div class="info-item">
+                            <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <div>
+                                <p class="info-label">Celular</p>
+                                <p class="info-value">314 700 2703<br>313 791 8728</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <div>
+                                <p class="info-label">Correo</p>
+                                <p class="info-value">ce.nuevomilenio3010@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <div>
+                                <p class="info-label">Horario</p>
+                                <p class="info-value">Sábados<br>7:30 a.m. - 1:00 p.m.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="locations" class="info-card" aria-labelledby="locations-heading">
+                    <h2 id="locations-heading">Ubicación</h2>
+                    <div class="info-content">
+                        <div class="location-item">
+                            <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <div>
+                                <p class="location-label">Sede en funcionamiento</p>
+                                <p class="location-address">Colegio Limbania Velasco<br>Calle 5 # 8 - 73</p>
+                                <a href="https://maps.app.goo.gl/Rw2xMigE5m6Z9VZT9" class="map-link" target="_blank" rel="noopener noreferrer">Ver en Google Maps</a>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <div>
+                                <p class="location-label">Sede administrativa</p>
+                                <p class="location-address">Calle 11 A # 14 - 32<br>Barrio La Joyita</p>
+                                <a href="https://maps.app.goo.gl/fNnvoJ61pk7G9ZKk6" class="map-link" target="_blank" rel="noopener noreferrer">Ver en Google Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="gallery" class="info-card gallery-card" aria-labelledby="gallery-heading">
+                    <h2 id="gallery-heading">Galería</h2>
+                    <div class="gallery-carousel" role="region" aria-label="Galería de imágenes">
+                        <div class="gallery-track">
+                            <div class="gallery-item">
+                                <img src="assets/img8.jpg" alt="Ceremonia de grados 2023" loading="lazy">
+                                <p class="gallery-caption">Grados 2023</p>
+                            </div>
+                            <div class="gallery-item">
+                                <video src="assets/video2.mp4" muted playsinline loop poster="assets/video-poster.jpg" aria-label="Video de momento memorable grados 2023"></video>
+                                <p class="gallery-caption">Momento memorable Grados 2023</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="assets/actividad2.jpg" alt="Estudiantes en actividades académicas" loading="lazy">
+                                <p class="gallery-caption">Actividades académicas</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="assets/actividad1.jpg" alt="Estudiantes en actividades académicas" loading="lazy">
+                                <p class="gallery-caption">Actividades académicas</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <section class="main-carousel-section">
+                <div class="carousel-container" role="region" aria-label="Carrusel principal de información">
+                    <div class="carousel-track" id="carouselTrack">
+                        <article id="home" class="carousel-slide" data-index="0">
+                            <div class="slide-media">
+                                <img
+                                    src="assets/img7.jpg"
+                                    srcset="assets/img7.jpg 800w, assets/img7.jpg 1200w, assets/img7.jpg 1600w"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 70vw, 800px"
+                                    alt="Instalaciones del centro educativo"
+                                    loading="eager">
+                            </div>
+                            <div class="slide-content">
+                                <h2>Bienvenido a Centro Educativo Nuevo Milenio</h2>
+                                <p>Aquí encontrarás valiosa información acerca de nosotros y de cómo contactarnos. Te invitamos a echar un vistazo.</p>
+                            </div>
+                        </article>
+
+                        <article id="about" class="carousel-slide" data-index="1">
+                            <div class="slide-media">
+                                <img src="assets/img4.jpg" alt="Estudiantes del centro educativo" loading="lazy">
+                            </div>
+                            <div class="slide-content">
+                                <h2>Acerca de nosotros</h2>
+                                <p>Hacemos parte de la nación de Colombia y nos ubicamos en el departamento del Cauca, en jurisdicción del municipio de Santander de Quilichao. NIT 900045062-5.</p>
+                                <p>El colegio ofrece bachillerato en modalidad académica por ciclos para adultos y es aprobado por la secretaría de educación del Cauca mediante resolución No. 1598-12-2004.</p>
+                            </div>
+                        </article>
+
+                        <article id="mission" class="carousel-slide" data-index="2">
+                            <div class="slide-media">
+                                <video src="assets/video2.mp4" muted playsinline loop poster="assets/video-poster.jpg" aria-label="Video institucional"></video>
+                            </div>
+                            <div class="slide-content">
+                                <h2>Misión</h2>
+                                <p>El Centro Educativo Nuevo Milenio es una entidad educativa de carácter privado, que ofrece educación básica y media desde el grado sexto hasta once a estudiantes de ambos sexos de estratos 1, 2 y 3, incluyendo población de etnias indígena, negra, mestiza de la parte urbana y rural de Santander de Quilichao y otros municipios.</p>
+                            </div>
+                        </article>
+
+                        <article id="vision" class="carousel-slide" data-index="3">
+                            <div class="slide-media">
+                                <img src="assets/img6.jpg" alt="Visión del centro educativo" loading="lazy">
+                            </div>
+                            <div class="slide-content">
+                                <h2>Visión</h2>
+                                <p>La formación de adultos tendrá como base la libertad, la responsabilidad y tolerancia enmarcados dentro de los valores ético-morales, que deben fomentarse para un buen desempeño social.</p>
+                                <p>El presente manual de convivencia se realizó teniendo en cuenta las disposiciones legales establecidas en la constitución nacional de 1991; el estatuto docente; la ley 115 de 1994; el decreto 1860 de 1994; ley 715 de 2001; el decreto 0230 de 2002 y otras disposiciones relacionadas con la educación para adultos.</p>
+                            </div>
+                        </article>
+
+                        <article id="objectives" class="carousel-slide" data-index="4">
+                            <div class="slide-media">
+                                <img src="assets/img5.jpg" alt="Objetivos institucionales" loading="lazy">
+                            </div>
+                            <div class="slide-content">
+                                <h2>Objetivos</h2>
+                                <ul class="objectives-list">
+                                    <li>Mantener la integración, la convivencia y la tolerancia para lograr el respeto mutuo</li>
+                                    <li>Fortalecer la autoestima para aplicar una verdadera democracia y solidaridad sobre el quehacer cotidiano</li>
+                                    <li>Respetar el libre pensamiento y expresión que conlleve a una formación integral</li>
+                                    <li>Fomentar una buena educación basada en valores</li>
+                                    <li>Señalar elementos que mediante compromisos permitan una armónica convivencia</li>
+                                    <li>Lograr una formación integral, basada en las relaciones humanas</li>
+                                    <li>Formar líderes con actitud de diálogo, responsabilidad, respeto y tolerancia</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <button class="carousel-btn carousel-btn-prev" aria-label="Diapositiva anterior" type="button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <button class="carousel-btn carousel-btn-next" aria-label="Siguiente diapositiva" type="button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+
+                    <div class="carousel-indicators" role="tablist" aria-label="Navegación del carrusel">
+                        <button class="indicator active" aria-label="Ir a diapositiva 1" aria-current="true" data-slide="0" role="tab"></button>
+                        <button class="indicator" aria-label="Ir a diapositiva 2" data-slide="1" role="tab"></button>
+                        <button class="indicator" aria-label="Ir a diapositiva 3" data-slide="2" role="tab"></button>
+                        <button class="indicator" aria-label="Ir a diapositiva 4" data-slide="3" role="tab"></button>
+                        <button class="indicator" aria-label="Ir a diapositiva 5" data-slide="4" role="tab"></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <p>&copy; 2023 Centro Educativo Nuevo Milenio. Todos los derechos reservados.</p>
+            <nav aria-label="Enlaces del pie de página">
+                <a href="#home" class="footer-link">Inicio</a>
+                <a href="#mission" class="footer-link">Misión</a>
+                <a href="#vision" class="footer-link">Visión</a>
+                <a href="#contact" class="footer-link">Contacto</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
